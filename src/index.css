@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Comfortaa:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @apply bg-darkBg text-white;
+}
+
+.glassmorphism {
+  @apply bg-opacity-20 backdrop-filter backdrop-blur-lg;
+}
+
+.logo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
