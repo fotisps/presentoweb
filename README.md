@@ -1,127 +1,50 @@
-# Fifigkos Documentation
-==========================
+## Overview
 
-## Table of Contents
------------------
+This is a testing project aimed at showcasing the power of AI in coding, specifically using Bolt AI to build a
+responsive website. The website is built using React and utilizes Glassmorphism design elements.
 
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Components](#components)
-4. [Layouts](#layouts)
-5. [Responsive Design](#responsive-design)
-6. [CSS Framework](#css-framework)
+### _Responsiveness_
 
-## Introduction
-------------
+This website has been designed to be fully responsive, ensuring an optimal viewing experience across various
+devices and screen sizes.
 
-Welcome to the Fifigkos documentation! This website is built using React and is designed to be presentational,
-with a focus on responsive design.
+*   The layout adapts seamlessly to different screen widths, providing an intuitive user experience.
+*   All elements, including typography, buttons, and images, are carefully crafted to ensure a consistent look and
+feel regardless of the device used.
 
-## Getting Started
------------------
+### _Glassmorphism_
 
-To get started with this project, you'll need:
+The website incorporates Glassmorphism design elements, which create a sense of depth and visual interest. This
+technique involves using transparent backgrounds and subtle gradient effects to create a sense of luminosity.
 
-*   Node.js installed on your machine
-*   A code editor or IDE of your choice
+*   The use of glassmorphism enhances the overall aesthetic appeal of the website.
+*   It creates a modern and premium look that sets this project apart from traditional web design approaches.
 
-1.  Clone the repository using `git clone https://github.com/your-username/fifigkos.git`
-2.  Navigate to the project directory using `cd fifigkos`
-3.  Install dependencies with `npm install` or `yarn install`
+## Usage
 
-## Components
--------------
+**Please note:** This template should only be used for personal or educational purposes, and proper attribution is
+required. The creator of this template, Fotios Pastrakis, is an AI developer and designer who built this project
+to demonstrate the power of AI in coding.
 
-The website is composed of several reusable components, including:
+To use this template, simply:
 
-*   **FifigkosComponent**: The main component that renders the Fifigkos pastry.
-*   **HeaderComponent**: The header component that contains navigation and branding information.
-*   **FooterComponent**: The footer component that contains copyright information and contact details.
+1.  Fork the repository.
+2.  Make any necessary changes or modifications.
+3.  Update the `README.md` file with your own information and credit Fotios Pastrakis as the creator.
 
-### FifigkosComponent
+**Important:** Avoid distributing or using this template for commercial purposes without explicit permission from
+the creator.
 
-```markdown
-// src/components/FifigkosComponent.js
+## Testing
 
-import React from 'react';
+This project is intended to serve as a testing ground for Bolt AI's capabilities in coding and web development. If
+you have any feedback, suggestions, or questions about this project, please don't hesitate to reach out.
 
-const FifigkosComponent = () => {
-    return (
-        <div className="fifigkos">
-            <h2>Fifigkos Pastry</h2>
-            <p>A traditional Greek pastry filled with cheese and herbs.</p>
-            <img src="/fifigkos-image.jpg" alt="Fifigkos Pastry" />
-        </div>
-    );
-};
+### Testing Guidelines:
 
-export default FifigkosComponent;
-```
+*   The website should be tested on various devices and screen sizes.
+*   The responsiveness and Glassmorphism effects should be thoroughly tested to ensure they are working as
+intended.
+*   Any bugs or issues found during testing should be reported to the creator.
 
-## Layouts
-------------
-
-The website uses a responsive layout that adapts to different screen sizes. The main layouts are:
-
-*   **Wide Layout**: A full-width layout suitable for desktop devices.
-*   **Narrow Layout**: A narrow layout suitable for mobile devices.
-
-### WideLayout.js
-
-```markdown
-// src/layouts/WideLayout.js
-
-import React from 'react';
-import { Container } from '@material-ui/core';
-
-const WideLayout = ({ children }) => {
-    return (
-        <Container maxWidth="lg">
-            {children}
-        </Container>
-    );
-};
-
-export default WideLayout;
-```
-
-## Responsive Design
-------------------
-
-The website is designed to be fully responsive, using CSS media queries to adapt the layout and styling for
-different screen sizes.
-
-### CSS Framework
-
-We use Material-UI as our CSS framework for building responsive and consistent components. You can add it to your
-project by running:
-
-```bash
-npm install @material-ui/core
-```
-
-## Example Usage
------------------
-
-Here's an example of how to use the `FifigkosComponent` in a layout:
-
-```markdown
-// src/App.js
-
-import React from 'react';
-import { WideLayout } from './layouts/WideLayout';
-import FifigkosComponent from './components/FifigkosComponent';
-
-const App = () => {
-    return (
-        <WideLayout>
-            <FifigkosComponent />
-        </WideLayout>
-    );
-};
-
-export default App;
-```
-
-This is just a starting point, and you can customize the components, layouts, and CSS to suit your needs. Happy
-coding!
+By using this template, you acknowledge that you have read and understood the usage guidelines.
